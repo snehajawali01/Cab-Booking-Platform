@@ -1,0 +1,37 @@
+﻿# Python
+venv/
+venv311/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Frontend generated files
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/coverage/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Backups and editor files
+*.bak
+*.backup
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+*.driver-backup
